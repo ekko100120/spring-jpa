@@ -277,4 +277,5 @@ Spring Data 提供了默认的事务处理方式，即所有的查询均声明�
 进行多个 Repository 操作时，也应该使它们在同一个事务中处理，按照分层架构的思想，这部分属于业务逻辑层，因此，需要在Service 层实现对多个 Repository 的调用，并在相应的方法上声明事务。
 
 
-
+# Reference
+https://mp.weixin.qq.com/s/Fg5ssXuvabZwEfRMKfpY9Q
